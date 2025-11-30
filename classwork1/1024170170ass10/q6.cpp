@@ -23,8 +23,9 @@ for (int count = 0; count < V-1; count++) {
         }
     }
     cout << "Shortest distances from source " << start << ":\n";
-    for (int i = 0; i < V; i++){}
+    for (int i = 0; i < V; i++){
         cout << i << " : " << dist[i] << endl;
+    }
 }
 int main() {
     int graph[V][V] = {
@@ -33,3 +34,4 @@ int main() {
     dijkstra(graph, 0);
     return 0;
 }
+
